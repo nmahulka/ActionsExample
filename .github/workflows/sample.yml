@@ -1,4 +1,7 @@
-name: example 
+name: example
+on: 
+  push:
+      
 jobs: 
   build:
     name: Greeting 
