@@ -1,7 +1,8 @@
 name: example 
 jobs: 
-  build: 
-  runs-on: ubuntu-latest
-  steps:
-    npm --version
-    node --version
+  build:
+    name: Greeting 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the greeting 
+        run: echo 'Hello'
