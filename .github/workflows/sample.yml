@@ -1,0 +1,7 @@
+name: example 
+jobs: 
+  build: 
+  runs-on: ubuntu-latest
+  steps:
+    npm --version
+    node --version
