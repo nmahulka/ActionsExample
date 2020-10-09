@@ -1,0 +1,11 @@
+name: example
+on: 
+  push:
+      
+jobs: 
+  build:
+    name: Greeting 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the greeting 
+        run: echo 'Hello'

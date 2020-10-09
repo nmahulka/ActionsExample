@@ -1,4 +1,4 @@
-name: example
+name: sample
 on: 
   push:
       
